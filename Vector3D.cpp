@@ -42,8 +42,6 @@ Vector3D Vector3D::operator- () const {
     return result;
 }
 
-#include<iostream>
-using namespace std;
 Vector3D Vector3D:: operator* (double number) const {
     Vector3D result(x_ * number, y_ * number, z_ * number);
     return result;

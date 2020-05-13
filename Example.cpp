@@ -2,8 +2,6 @@
 #include <string.h>
 #include "Vector3D.cpp"
 using namespace std;
-void f () {
-}
 int main () {
     char operation[1001]; // string for parsing the operation in the input
     Vector3D vectors[10000]; // array containing the vectors in the input;
